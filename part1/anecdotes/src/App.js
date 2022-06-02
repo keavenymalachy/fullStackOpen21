@@ -33,7 +33,7 @@ const App = () => {
   const [selected, setSelected] = useState(0)
   const [vote, setVotes] = useState(new Uint8Array(7))
   const copy = [...vote]
-  const mostVotes = Math.max(...vote)
+  const mostVotes = Math.max(...vote) 
 
   const handleNextClick = () => {
     setSelected(Math.floor(Math.random() * 7))

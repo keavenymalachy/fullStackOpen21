@@ -27,7 +27,7 @@ const History = (props) => {
       </div>
     )
   }
-  return (
+  return ( 
     <div>
       <table>
       <tr><td><Statistics name={props.goodName} amount={props.good}/></td></tr>
